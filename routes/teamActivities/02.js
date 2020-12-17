@@ -1,12 +1,12 @@
 //TA02 PLACEHOLDER
-// Remember, you can make more of these placeholders yourself! 
+// Remember, you can make more of these placeholders yourself!
 const express = require('express');
 const router = express.Router();
 
 router.get('/',(req, res, next) => {
-    res.render('pages/ta02', { 
-        title: 'Team Activity 02', 
-        path: '/ta02', // For pug, EJS 
+    res.render('pages/teamActivities/02', {
+        title: 'Team Activity 02',
+        path: '/team/02', // For pug, EJS
         activeTA03: true, // For HBS
         contentCSS: true, // For HBS
     });
